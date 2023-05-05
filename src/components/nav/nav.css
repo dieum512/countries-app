@@ -23,6 +23,12 @@ nav img {
     gap: 15px;
 }
 
+.ul-nav button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
 @media (min-width: 768px) {
     nav {
         padding: 5px 40px;
