@@ -1,40 +1,42 @@
 nav {
-    background-color: #191627;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 10px;
-    align-items: center;
+  background-color: #191627;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 h1 {
-    color: #fff;
+  color: #fff;
 }
 
 nav img {
-    height: 30px;
+  height: 30px;
 }
 
 .ul-nav {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .ul-nav button {
-    border: none;
-    background: transparent;
-    cursor: pointer;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  
 }
 
 @media (min-width: 768px) {
-    nav {
-        padding: 5px 40px;
-    }
-    
-    .ul-nav {
-        gap: 30px;
-    }
+  nav {
+    padding: 5px 40px;
+  }
+
+  .ul-nav {
+    gap: 30px;
+  }
 }
