@@ -1,10 +1,10 @@
-import { configureStore } from "@reduxjs/toolkit";
-import countriesReducer from "./country/countriesSlice";
+import { configureStore } from '@reduxjs/toolkit';
+import countriesReducer from './country/countriesSlice';
 
 const store = configureStore({
-    reducer: {
-        country: countriesReducer,
-    },
+  reducer: {
+    country: countriesReducer,
+  },
 });
 
 export default store;
