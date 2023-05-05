@@ -13,6 +13,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
   - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
   - [🚀 Live Video](#live-video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -65,6 +66,14 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://deploy-preview-1--snazzy-stroopwafel-091edc.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE VIDEO -->
 
 ## 🚀 Live Video <a name="live-video"></a>
 
