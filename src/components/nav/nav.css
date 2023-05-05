@@ -4,6 +4,11 @@ nav {
   justify-content: space-between;
   padding: 5px 10px;
   align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
 }
 
 li {
