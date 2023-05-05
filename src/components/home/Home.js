@@ -1,9 +1,8 @@
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-// import Nav from "../nav/Nav";
 import globe from '../images/globe.png';
-import globeBg from '../images/globe-bg.jpg';
+// import globeBg from '../images/globe-bg.jpg';
 import './home.css';
 
 const Home = () => {
@@ -21,9 +20,9 @@ const Home = () => {
 
   return (
     <>
-      {/* <Nav /> */}
-      <input type="text" value={searchCountry} onChange={handleCountry} placeholder="Search for country here" className="search-bar" />
-      <img src={globeBg} alt="globe" className="globe-bg" />
+      <div className="input-container">
+        <input type="text" value={searchCountry} onChange={handleCountry} placeholder="Search for country here" className="search-bar" />
+      </div>
       <div className="title-container">
         <h3>ALL THE COUNTRIES</h3>
       </div>
