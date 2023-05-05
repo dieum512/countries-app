@@ -13,7 +13,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
   - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Video](#live-video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -66,9 +66,9 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Video <a name="live-video"></a>
 
-- [Live Demo Link](https://snazzy-stroopwafel-091edc.netlify.app/)
+- [Live Video Link](https://www.loom.com/share/2499ad7e695845028f1596986f918bb7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
