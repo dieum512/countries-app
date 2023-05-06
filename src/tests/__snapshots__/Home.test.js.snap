@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> Should renders correctly 1`] = `
+Array [
+  
+  <div
+    className="input-container"
+  >
+    <input
+      type="text"
+      value=""
+      className="search-bar"
+      onChange={[Function]}
+      placeholder="Search for country here"
+    />
+  </div>,
+  <div
+    className="title-container"
+  >
+    <h3>
+      ALL THE COUNTRIES
+    </h3>
+  </div>,
+  <div
+    className="country-container"
+  >
+    <a
+      className="a-card"
+      href="/countries/Test Country 1"
+      onClick={[Function]}
+    >
+      <img
+        alt="A globe"
+        className="country-image"
+        src="globe.png"
+      />
+      <div
+        className="item-container"
+      >
+        <h2>
+          Test Country 1
+        </h2>
+        <h2/>
+      </div>
+    </a>
+    <a
+      className="a-card"
+      href="/countries/Test Country 2"
+      onClick={[Function]}
+    >
+      <img
+        alt="A globe"
+        className="country-image"
+        src="globe.png"
+      />
+      <div
+        className="item-container"
+      >
+        <h2>
+          Test Country 2
+        </h2>
+        <h2/>
+      </div>
+    </a>
+    <a
+      className="a-card"
+      href="/countries/Test Country 3"
+      onClick={[Function]}
+    >
+      <img
+        alt="A globe"
+        className="country-image"
+        src="globe.png"
+      />
+      <div
+        className="item-container"
+      >
+        <h2>
+          Test Country 3
+        </h2>
+        <h2/>
+      </div>
+    </a>
+  </div>,
+]
+`;
