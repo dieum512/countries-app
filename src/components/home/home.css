@@ -84,6 +84,8 @@ a {
   .a-card:hover {
     scale: 1.02;
     border: 1px solid #473b80;
+    border-radius: unset;
+    background-color: #473b80;
   }
 
   .country-image {
