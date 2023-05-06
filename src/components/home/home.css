@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* seaarching bar */
+.input-container {
+  background-color: #dfd0d0;
+  opacity: 0.7;
+  padding: 30% 10% 20% 10%;
+}
+
+.search-bar {
+  padding: 8px;
+  font-size: 16px;
+  width: 90%;
+}
+
+.title-container {
+  background-color: #191627;
+  padding: 8px;
+  color: #fff;
+  text-align: center;
+}
+
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3px;
+}
+
+.a-card {
+  background-color: #1f2545;
+  padding: 10px 20px;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+.country-image {
+  width: 100px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+}
+
+.item-container h3 {
+  color: #fff;
+  justify-content: flex-end;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .input-container {
+    padding: 10% 20%;
+  }
+
+  .search-bar {
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .country-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+  }
+
+  .a-card {
+    padding: 20px;
+    transition: 0.2s;
+    border-radius: 20px;
+  }
+
+  .a-card:hover {
+    scale: 1.02;
+    border: 1px solid #473b80;
+    border-radius: unset;
+    background-color: #473b80;
+  }
+
+  .country-image {
+    width: 130px;
+  }
+}

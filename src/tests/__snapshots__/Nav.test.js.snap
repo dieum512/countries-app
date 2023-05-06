@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav Should renders correctly 1`] = `
+<nav
+  className="nav-bar"
+>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <img
+      alt="back-arrow"
+      src="backArrow.png"
+    />
+  </a>
+  <h1>
+    Countries
+  </h1>
+  <ul
+    className="ul-nav"
+  >
+    <li>
+      <button 
+        type="button"
+      >
+        <img 
+          src=mic.png 
+          alt="microphone" 
+        />
+      </button>
+    </li>
+    <li>
+      <button 
+        type="button"
+      >
+        <img 
+          src=setting.png 
+          alt="settings" 
+        />
+      </button>
+    </li>
+  </ul>
+</nav>
+`;

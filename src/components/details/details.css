@@ -1,0 +1,58 @@
+.main-container {
+  background-color: #1f2545;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+.flag-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flag-container h1 {
+  padding-top: 9%;
+  text-align: center;
+}
+
+.flag-container img {
+  height: 200px;
+  margin: 0 auto;
+}
+
+.country-status {
+  background-color: #191627;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+}
+
+.country-info {
+  text-align: right;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 18px;
+}
+
+.country-info a {
+  color: #9086b6;
+}
+
+span {
+  position: absolute;
+  left: 10px;
+  color: #000;
+}
+
+.country-info:nth-child(even) {
+  background-color: #2a263f;
+}
+
+@media (min-width: 768px) {
+  .flag-container h1 {
+    padding-top: 5%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,45 @@
+nav {
+  background-color: #191627;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  color: #fff;
+}
+
+nav img {
+  height: 30px;
+}
+
+.ul-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.ul-nav button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  nav {
+    padding: 5px 40px;
+  }
+
+  .ul-nav {
+    gap: 30px;
+  }
+}
