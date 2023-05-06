@@ -6,9 +6,9 @@ import './nav.css';
 
 const Nav = () => (
   <>
-    <nav>
+    <nav className="nav-bar">
       <Link to="/"><img src={backArrow} alt="back-arrow" /></Link>
-      <h1>countries</h1>
+      <h1>Countries</h1>
       <ul className="ul-nav">
         <li><button type="button"><img src={micIcon} alt="microphone" /></button></li>
         <li><button type="button"><img src={settingsIcon} alt="settings" /></button></li>
