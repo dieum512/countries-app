@@ -79,11 +79,12 @@ a {
     padding: 20px;
     transition: 0.2s;
     border-radius: 20px;
+    transition: 0.3s;
   }
 
   .a-card:hover {
     scale: 1.02;
-    border: 1px solid #473b80;
+    border: 2px solid #1f2545;
     border-radius: unset;
     background-color: #473b80;
   }
