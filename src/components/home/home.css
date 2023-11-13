@@ -34,7 +34,7 @@ a {
 
 .a-card {
   background-color: #1f2545;
-  /* background: linear-gradient(to bottom right, #1f2545, #000); */
+  background: linear-gradient(to bottom right, #1f2545, #000);
   padding: 10px 20px;
   opacity: 0.98;
 }
@@ -71,7 +71,6 @@ a {
   .country-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* gap: 3px; */
   }
 
   .a-card {
