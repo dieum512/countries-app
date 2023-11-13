@@ -11,7 +11,7 @@ a {
 .input-container {
   background-color: #dfd0d0;
   opacity: 0.9;
-  padding: 30% 10% 20% 10%;
+  /* padding: 30% 10% 20% 10%; */
 }
 
 .search-bar {
@@ -59,7 +59,11 @@ a {
 
 @media (min-width: 768px) {
   .input-container {
-    padding: 10% 20%;
+    padding: 50px 10% 20px;
+  }
+
+  .input-container input {
+    width: 100%;
   }
 
   .search-bar {
