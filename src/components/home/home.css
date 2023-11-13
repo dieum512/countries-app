@@ -40,6 +40,7 @@ a {
 
 .country-image {
   width: 100px;
+  margin-bottom: 10px;
 }
 
 .item-container {
@@ -89,5 +90,6 @@ a {
 
   .country-image {
     width: 130px;
+    margin-bottom: 20px;
   }
 }
