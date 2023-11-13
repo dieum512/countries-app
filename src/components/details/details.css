@@ -17,7 +17,7 @@
 }
 
 .flag-container img {
-  height: 200px;
+  height: 130px;
   margin: 0 auto;
 }
 
@@ -54,5 +54,9 @@ span {
   .flag-container h1 {
     padding-top: 5%;
     text-align: center;
+  }
+
+  .flag-container img {
+    height: 200px;
   }
 }
