@@ -29,7 +29,7 @@ const Home = () => {
         {filteredData.map((item) => (
 
           <Link to={`/countries/${item.name}`} key={item.name} className="a-card">
-            <img src={globe} alt="A globe" className="country-image" />
+            <img src={item.flag} alt="A globe" className="country-image" />
             <div className="item-container">
               <h3>{item.name}</h3>
               <h3>{item.population}</h3>
