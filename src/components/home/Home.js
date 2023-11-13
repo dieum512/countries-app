@@ -1,7 +1,6 @@
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import globe from '../images/globe.png';
 import './home.css';
 
 const Home = () => {
