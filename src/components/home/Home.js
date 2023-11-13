@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <div className="input-container">
-        <input type="text" value={searchCountry} onChange={handleCountry} placeholder="Search for country here" className="search-bar" />
+        <input type="text" value={searchCountry} onChange={handleCountry} placeholder="Search for country here" />
       </div>
       <div className="title-container">
         <h3>ALL THE COUNTRIES</h3>

@@ -10,6 +10,7 @@ a {
 /* seaarching bar */
 .input-container {
   opacity: 0.9;
+  padding: 30% 10% 20% 10%;
 }
 
 .search-bar {
