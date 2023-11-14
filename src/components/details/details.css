@@ -33,7 +33,7 @@
   color: #fff;
   font-size: 18px;
   font-weight: 500;
-  padding: 18px;
+  padding: 18px 5%;
 }
 
 .country-info a {
@@ -44,6 +44,7 @@ span {
   position: absolute;
   left: 10px;
   color: #a18b8b;
+  padding-left: 5%;
 }
 
 .country-info:nth-child(even) {
